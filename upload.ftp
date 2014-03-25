@@ -1,0 +1,11 @@
+open ftp.sixist.co.uk
+user
+pass
+cd public_html
+cd theairwaves
+prompt i
+mput *.html
+mput *.css
+mput *.jpg
+mput *.js
+bye
