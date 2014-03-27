@@ -43,69 +43,33 @@ header {
     padding-top:2px;
     //background: yellow; 
 }
-.navmenu li a {
-    display:block; 
-    height:38px; 
-    line-height:38px; 
-    padding:0 20px 0 0; 
-    float:left; 
-    //background: red; 
-    //color: red;
-    text-decoration:none;
-}
 .navmenu li a b {
     display:block; 
-    height:38px; 
+    width:100px; 
+    line-height:40px; 
     float:left; 
-    padding:0 0 0 20px; 
-    //background: red;
-    //color: darkblue;
-    cursor:pointer;
-}
-.navmenu li a {
-    display:block; 
-    height:38px; 
-    float:left; 
-    padding:0 0 0 20px; 
-    //background: red;
-    //color: darkblue;
-    cursor:pointer;
-}
-.navmenu li b {
-    display:block; 
-    height:38px; 
-    float:left; 
-    padding:0 0 0 20px; 
+    padding:0px 10px 0px 10px; 
     //background: red;
     color: darkblue;
     cursor:pointer;
+    text-decoration:none;
 }
 
-.navmenu a:hover {
-    //background: blue;
-}
-.navmenu b:hover {
-    background-position:left -51px;
-    height:40px;
+
+.navmenu a:hover b:hover {
+    //background-position:left -51px;
+    //height:40px;
     //background: red;
     color: white;
 }
 
-.tc-index #tc-navmenu #home a, 
-.tc-diary #tc-navmenu #diary a, 
-.tc-tracklist #tc-navmenu #tracklist a, 
-.tc-history #tc-navmenu #history a {
-    background: darkblue url(tabheader.jpg); 
-    width:100%;
-}
-
-.tc-index #tc-navmenu #home b, 
-.tc-diary #tc-navmenu #diary b, 
-.tc-tracklist #tc-navmenu #tracklist b, 
-.tc-history #tc-navmenu #history b {
-    background: darkblue url(tabheader.jpg); 
-    color: cyan;
-    width:100%;
+.tc-index #tc-navmenu #home a b, 
+.tc-diary #tc-navmenu #diary a b, 
+.tc-tracklist #tc-navmenu #tracklist a b, 
+.tc-history #tc-navmenu #history a b{
+    background: darkblue; 
+    color: lavender;
+    width:100px;
 }
 
 
