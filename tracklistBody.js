@@ -1,6 +1,7 @@
 // tracklistBody.js
 
-var list = document.getElementById("tc-trackList");
+//var list = document.getElementById("tc-trackList");
+var list2 = document.getElementById("tc-trackList2");
 var listMsg = document.getElementById("tc-trackListMsg");
 $("tc-trackListMsg").text("Working...");
 
@@ -15,7 +16,7 @@ xmlhttp.onreadystatechange = function () {
 
     //var SongList, SongListLength, i, splitLine, Line, song, songname;
     var xmlSongList;
-
+ 
     if (xmlhttp.readyState == 4 && (xmlhttp.status == 200 || xmlhttp.status == 0)) {
 
         listMsg.innerText = "";
@@ -35,8 +36,13 @@ xmlhttp.onreadystatechange = function () {
 			if (band.indexOf("the airwaves") != -1)
 			{
 				songText = artist.trim() + " : " + track.trim();
-				list.appendChild(document.createTextNode(songText));
-				list.appendChild(document.createElement("br"));
+				
+				//list.appendChild(document.createTextNode(songText));
+				//list.appendChild(document.createElement("br"));
+				
+				var option = document.createElement("option");
+				option.text= songText;
+				list2.add(option);
 			}
         });
 
