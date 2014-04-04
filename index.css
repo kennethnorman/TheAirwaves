@@ -7,11 +7,16 @@ header {
     display: block;
 }
 
-.intro { 
+#tc-introwrapper {
+	float:left; 
+	width 100%;
+}
+
+.intro, .introtext { 
     color: black;
 }
 
-.intro p { 
+.intro p, .introtext p { 
 	font: normal 1.4em Century Gothic;
     color: black;
     padding-left: 5%; 
@@ -22,7 +27,7 @@ header {
 }
 
 .introsidebar img { 
-    display: block;
+    //display: block;
     width: 30%;
     height: 30%;
     float : right;
@@ -59,6 +64,7 @@ header {
 }
 .navmenu li {
     float:left; 
+    //max-width: 75%;
 }
 .navmenu li a b {
     display:block; 
@@ -89,7 +95,8 @@ header {
     margin-left: 5%;
 	font: normal 1.0em Century Gothic;
     color: black;
-    width:100%;
+    width: 100%;
+    max-width: 100%;
 }
 #tc-bandmembers  td {
 	text-align: center; 
