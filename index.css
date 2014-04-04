@@ -1,6 +1,6 @@
 
 html {
-	background: #white url(background.jpg); 
+	background: #FFFFFF; 
 }
 
 header {
@@ -8,12 +8,12 @@ header {
 }
 
 .intro { 
-    color: black;
+    color: #050507;
 }
 
 .intro p { 
 	font: normal 1.4em Century Gothic;
-    color: black;
+    color: #050507;
     padding-left: 5%; 
 }
 
@@ -30,16 +30,15 @@ header {
 
 .links-name, .links-name:link, .links-name:visited { 
     text-decoration:none;
-	color: black;
+	color: #050507;
 }
 .links-name:hover, .links-name:focus{ 
 	color: lightblue;
 }
 
 #tc-trackList2 { 
-    color: black;
 	font: normal 1.4em Century Gothic;
-    color: black;
+    color: #050507;
     padding-left: 5%; 
 	border: none;
 }
@@ -47,7 +46,6 @@ header {
 
 .introlower img{ 
     width: 100%;
-    //height: 100%;
     max-width: 100%;
 }
 
@@ -88,7 +86,7 @@ header {
 #tc-bandmembers {
     margin-left: 5%;
 	font: normal 1.0em Century Gothic;
-    color: black;
+    color: #050507;
     width:100%;
 }
 #tc-bandmembers  td {
@@ -102,35 +100,35 @@ header {
 
 
 #tc-footerblockouter { 
-    background: red; 
+    background: #C8352E; 
 }
 
 #tc-footerblock, #tc-infofooter { 
 	font: 1.0em impact;
-    background: red; 
+    background: #C8352E; 
     margin-left: 2%;
     padding:10px 10px 10px 10px; 
 }
 #tc-footerblock h3 { 
 	font: 1.6em impact;
-	color: white;
+	color: #D8C0C5;
 }
 #tc-footerblock  p { 
 	font: 1.2em impact;
-	color: white;
+	color: #D8C0C5;
 }
 #tc-footerblock a, a:link { 
     text-decoration:none;
-	color: white;
+	color: #D8C0C5;
 }
 #tc-footerblock a:hover, a:focus{ 
-	color: yellow;
+	color: #F1CAAD;
 }
 
 #tc-infofooter a, a:link { 
     text-decoration:none;
-	color: white;
+	color: #D8C0C5;
 }
 #tc-infofooter a:hover, a:focus { 
-	color: yellow;
+	color: #F1CAAD;
 }
