@@ -110,6 +110,9 @@ header {
 #tc-infoaudio a:hover, a:focus { 
 	color: #454587;
 }
+#player {
+	width:50%;
+}
 
 .infofooter { 
 	text-align: center; 
