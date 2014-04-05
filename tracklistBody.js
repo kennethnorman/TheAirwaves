@@ -11,6 +11,17 @@ var xmlhttp = sixistLibrary.GetXMLHTTPRequest();
 var sourceFile = "songinfo.xml";
 xmlhttp.open("GET", sourceFile, true);
 
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(!isAndroid) {
+	list2.size="10";
+}
+else {
+	var option = document.createElement("option");
+	option.text= "<<<Select to show the list>>>";
+	list2.add(option);
+}
+
 // Process the song list into something we can output.
 xmlhttp.onreadystatechange = function () {
 
