@@ -27,9 +27,8 @@ header {
 }
 
 .introsidebar img { 
-    //display: block;
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     float : right;
 }
 
@@ -62,29 +61,28 @@ header {
 }
 .navmenu li {
     float:left; 
-    //max-width: 75%;
 }
 .navmenu li a b {
     display:block; 
     width:90px; 
     line-height:40px; 
     padding:5px 10px 5px 10px; 
-    color: darkblue;
+    color: #182981;
     cursor:pointer;
     text-decoration:none;
 }
 
 
 .navmenu a:hover b:hover {
-    color: lightblue;
+    color: #5859C1;
 }
 
 .tc-index #tc-navmenu #home a b, 
 .tc-diary #tc-navmenu #diary a b, 
 .tc-tracklist #tc-navmenu #tracklist a b, 
 .tc-contact #tc-navmenu #contact a b{
-    background: darkblue; 
-    color: lavender;
+    background: #d8d9f1;
+    color: #5859C1;
     width:100px;
 }
 
@@ -99,6 +97,18 @@ header {
 #tc-bandmembers  td {
 	text-align: center; 
     width:25%;
+}
+
+#tc-infoaudio  {
+    margin-left: 5%;
+	font: normal 1.0em Century Gothic;
+}
+#tc-infoaudio a, a:link { 
+    text-decoration:none;
+	color: #050507;
+}
+#tc-infoaudio a:hover, a:focus { 
+	color: #454587;
 }
 
 .infofooter { 
