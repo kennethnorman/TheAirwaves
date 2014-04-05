@@ -9,4 +9,12 @@ mput *.html
 mput *.css
 mput *.jpg
 mput *.js
+
+mkdir music
+cd music
+lcd music
+mput *.mp3
+cd ..
+lcd ..
+
 bye
