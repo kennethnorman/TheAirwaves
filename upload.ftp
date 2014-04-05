@@ -10,9 +10,9 @@ mput *.css
 mput *.jpg
 mput *.js
 
-mkdir music
-cd music
-lcd music
+mkdir Music
+cd Music
+lcd Music
 mput *.mp3
 cd ..
 lcd ..
