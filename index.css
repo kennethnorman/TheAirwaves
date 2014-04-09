@@ -101,7 +101,7 @@ header {
 
 #tc-infoaudio  {
     margin-left: 5%;
-	font: normal 1.0em Century Gothic;
+	font: normal 1.4em Century Gothic;
 }
 #tc-infoaudio a, a:link { 
     text-decoration:none;
@@ -112,6 +112,7 @@ header {
 }
 #player {
 	width:50%;
+	height:50px;
 }
 
 .infofooter { 
