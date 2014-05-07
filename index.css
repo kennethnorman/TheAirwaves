@@ -114,6 +114,9 @@ header {
 	width:50%;
 	height:50px;
 }
+#videoplayer {
+	width:50%;
+}
 
 .infofooter { 
 	text-align: center; 
