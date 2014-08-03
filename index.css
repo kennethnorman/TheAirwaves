@@ -1,6 +1,6 @@
 
 html {
-	background: #FFFFFF; 
+	background: #C0C0C0; 
 }
 
 header {
@@ -67,22 +67,22 @@ header {
     width:90px; 
     line-height:40px; 
     padding:5px 10px 5px 10px; 
-    color: #182981;
+    color: #107272;
     cursor:pointer;
     text-decoration:none;
 }
 
 
 .navmenu a:hover b:hover {
-    color: #5859C1;
+    color: #5B5B5B;
 }
 
 .tc-index #tc-navmenu #home a b, 
 .tc-diary #tc-navmenu #diary a b, 
 .tc-tracklist #tc-navmenu #tracklist a b, 
 .tc-contact #tc-navmenu #contact a b{
-    background: #d8d9f1;
-    color: #5859C1;
+    background: #98D1D1;
+    color: #5B5B5B;
     width:100px;
 }
 
@@ -108,7 +108,7 @@ header {
 	color: #050507;
 }
 #tc-infoaudio a:hover, a:focus { 
-	color: #454587;
+	color: #5B5B5B;
 }
 #player {
 	width:40%;
@@ -124,35 +124,35 @@ header {
 
 
 #tc-footerblockouter { 
-    background: #C8352E; 
+    background: #98D1D1; 
 }
 
 #tc-footerblock, #tc-infofooter { 
 	font: 1.0em impact;
-    background: #C8352E; 
+    background: #98D1D1; 
     margin-left: 2%;
     padding:10px 10px 10px 10px; 
 }
 #tc-footerblock h3 { 
 	font: 1.6em impact;
-	color: #D8C0C5;
+	color: #050507;
 }
 #tc-footerblock  p { 
 	font: 1.2em impact;
-	color: #D8C0C5;
+	color: #050507;
 }
 #tc-footerblock a, a:link { 
     text-decoration:none;
-	color: #D8C0C5;
+	color: #050507;
 }
 #tc-footerblock a:hover, a:focus{ 
-	color: #F1CAAD;
+	color: #5B5B5B;
 }
 
 #tc-infofooter a, a:link { 
     text-decoration:none;
-	color: #D8C0C5;
+	color: #050507;
 }
 #tc-infofooter a:hover, a:focus { 
-	color: #F1CAAD;
+	color: #5B5B5B;
 }
