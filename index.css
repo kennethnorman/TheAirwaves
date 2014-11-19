@@ -16,7 +16,7 @@ header {
     color: #434343;
 }
 
-.intro p, .introtext p  { 
+.intro p, .introtext p , .introtext li { 
 	font-size: 1.2em;
 	font-family:  Trebuchet, Verdana, Helvetica, Arial, sans-serif;
     color: #434343;
