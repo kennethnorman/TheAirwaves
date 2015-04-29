@@ -23,7 +23,11 @@ function UpdateCalendarEvents(sourceFile) {
         if (data.feed.entry.length != 0) {
             pagemessage.innerText = "";
             $("tc-pagemessage").hide();
-        }
+			var FIREFOX = /Firefox/i.test(navigator.userAgent);
+			if (FIREFOX) {
+				document.getElementById("tc-pagemessage").style.display="none";
+			}
+       }
 
         $.each(data.feed.entry, function (i, el) {
 

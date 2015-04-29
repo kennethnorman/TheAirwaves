@@ -32,7 +32,11 @@ xmlhttp.onreadystatechange = function () {
 
         listMsg.innerText = "";
         $("tc-trackListMsg").hide();
-
+		var FIREFOX = /Firefox/i.test(navigator.userAgent);
+		if (FIREFOX) {
+			document.getElementById("tc-trackListMsg").style.display="none";
+		}
+		
         xmlSongList = xmlhttp.responseXML;
 
         var xmlDoc = $.parseXML(xmlhttp.responseText), 
