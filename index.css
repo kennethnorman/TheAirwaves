@@ -1,6 +1,6 @@
 
 html {
-	background: #E7E7E7; 
+	background: #000000; 
 }
 
 header {
@@ -13,18 +13,18 @@ header {
 }
 
 .intro, .introtext { 
-    color: #434343;
+    color: #F9F9F9;
 }
 
 .intro p, .introtext p , .introtext li { 
 	font-size: 1.2em;
 	font-family:  Trebuchet, Verdana, Helvetica, Arial, sans-serif;
-    color: #434343;
+    color: #F9F9F9;
     padding-left: 5%; 
 }
 
 .intrologo { 
-	background: #E7E7E7;
+	background: #000000;
 }
 
 .intrologo img{ 
@@ -39,7 +39,7 @@ header {
 
 .links-name, .links-name:link, .links-name:visited { 
     text-decoration:none;
-	color: #434343;
+	color: #F9F9F9;
 }
 .links-name:hover, .links-name:focus{ 
 	color: lightblue;
@@ -48,7 +48,8 @@ header {
 #tc-trackList2 { 
 	font-size: 1.4em;
 	font-family:  Trebuchet, Verdana, Helvetica, Arial, sans-serif;
-    color: #434343;
+    color: #FFFFFF;
+    background: #111111;
     padding-left: 5%; 
 	border: none;
 }
@@ -74,22 +75,22 @@ header {
     width:90px; 
     line-height:40px; 
     padding:5px 10px 5px 10px; 
-    color: #107272;
+    color: #B0110C5;
     cursor:pointer;
     text-decoration:none;
 }
 
 
 .navmenu a:hover b:hover {
-    color: #5B5B5B;
+    color: #ABBAAB;
 }
 
 .tc-index #tc-navmenu #home a b, 
 .tc-diary #tc-navmenu #diary a b, 
 .tc-tracklist #tc-navmenu #tracklist a b, 
 .tc-contact #tc-navmenu #contact a b{
-    background: #B1CCE7;
-    color: #5B5B5B;
+    background: #000000;
+    color: #D041E5;
     width:100px;
 }
 
@@ -98,7 +99,7 @@ header {
     margin-left: 5%;
 	font-size: 0.9em;
 	font-family:  Trebuchet, Verdana, Helvetica, Arial, sans-serif;
-    color: #434343;
+    color: #F9F9F9;
     width: 100%;
     max-width: 100%;
 }
